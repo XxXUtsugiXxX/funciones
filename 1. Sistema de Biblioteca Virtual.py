@@ -56,6 +56,7 @@ def historial(librosL):
     for librosD in librosL:
         if librosD["prestar"] == "prestado":
             print(f"estos son los libros prestados {librosD}")
+            break
 
             
 while True:
